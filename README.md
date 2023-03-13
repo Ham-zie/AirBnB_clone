@@ -1,35 +1,32 @@
-![img.png](img.png)
+# Description :label:
+
+## 
+
+Airbnb Clone is a technical solution to entrepreneurs for launching their own rental marketplace platform faster into the market. 
+It is equipped with essential features to run a marketplace where customers can share their properties and also goods easily.
+
+HBNB is a complete web application, integrating database storage, HTML/CSS templating, API, front-end and others.
+
+This team project is part of the ALX School Software Engineering program. </br>
+It represents the first step towards building a full web application: the AirBnB clone.
+
+This first step consists of:
+- a custom command-line interface for data management,
+- and the base classes for the storage of this data.
+
+## Usage ��
+
+The console works both in interactive mode and non-interactive mode, much like a Unix shell.
+It prints a prompt **(hbnb)** and waits for the user for input.
+
+# Files and Directories
+- models directory will contain all classes used for the entire project. A class, called “model” in a OOP project is the representation of an object/instance.
+- tests directory will contain all unit tests.
+- console.py file is the entry point of our command interpreter.
+    - models/base_model.py file is the base class of all our models. It contains common elements:
+    - attributes: id, created_at and updated_at
+- methods: save() and to_json()
+models/engine directory will contain all storage classes (using the same prototype). For the moment you will have only one: file_storage.py.
 
 
-
-Diagram AirBnB clone (The Console)
-
-![img_1.png](img_1.png)
-
-And today will start with The Console (a command interpreter to manage your AirBnB objects).
-
-This is the first step towards building your first full web application: the AirBnB clone. 
-
-This first step is very important because you will use what you build during this project
-
-with all other following projects: HTML/CSS templating, database storage, API, front-end integration and others.
-
-Create The console (manage your AirBnB objects)
-
-put in place a parent class (called BaseModel) to take care of the initialization, 
-serialization and deserialization of your future instances
-
-create a simple flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> file
-
-create all classes used for AirBnB (User, State, City, Place...) that inherit from BaseModel
-
-create the first abstracted storage engine of the project: File storage.
-
-create all unittests to validate all our classes and storage engine
-
-
-Installation:
-
-$ git clone git@github.com:julius-ashley/AirBnB_clone.git
-$ ./console.py
-
+![image](https://user-images.githubusercontent.com/105078661/218213826-b3d4f79b-1d80-42fa-97a6-ac185264f383.png)
